@@ -26,7 +26,7 @@ public class WeaponRotation : MonoBehaviour
         // Fire spells
         if (Input.GetButtonDown("Fire1"))
         {
-            GameObject ammoInstance = Instantiate(fire, ammoSpawn.transform.position, quaternion.identity);
+            GameObject ammoInstance = Instantiate(fire, ammoSpawn.transform.position, Quaternion.identity);
             ammoInstance.GetComponent<Rigidbody2D>().velocity = ammoSpawn.transform.right * 10 * transform.localScale.x;
             FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/FireBall", GetComponent<Transform>().position);
         }
@@ -34,7 +34,7 @@ public class WeaponRotation : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
 
-            GameObject ammoInstance = Instantiate(ice, ammoSpawn.transform.position, quaternion.identity);
+            GameObject ammoInstance = Instantiate(ice, ammoSpawn.transform.position, Quaternion.identity);
             ammoInstance.GetComponent<Rigidbody2D>().velocity = ammoSpawn.transform.right * 10 * transform.localScale.x;
 
             // */
