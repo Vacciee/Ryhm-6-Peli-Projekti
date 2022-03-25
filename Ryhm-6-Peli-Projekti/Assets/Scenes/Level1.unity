@@ -167,6 +167,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 710827764592780368, guid: 8aa7224aa968c7444936e779494a18fc, type: 3}
+      propertyPath: ice
+      value: 
+      objectReference: {fileID: 7619169084531675367, guid: 601900d75b397544c8ca6496db1016f9, type: 3}
+    - target: {fileID: 710827764592780368, guid: 8aa7224aa968c7444936e779494a18fc, type: 3}
+      propertyPath: fire
+      value: 
+      objectReference: {fileID: 1129659526466541339, guid: 6dca9f74d1254774abe51b502b85934f, type: 3}
     - target: {fileID: 6150444993742477985, guid: 8aa7224aa968c7444936e779494a18fc, type: 3}
       propertyPath: m_Name
       value: PelaajaPreFab
