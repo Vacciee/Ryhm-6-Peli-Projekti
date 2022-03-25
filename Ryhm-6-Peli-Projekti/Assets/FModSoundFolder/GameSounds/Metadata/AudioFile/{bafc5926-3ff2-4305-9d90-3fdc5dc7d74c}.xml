@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bafc5926-3ff2-4305-9d90-3fdc5dc7d74c}">
+		<property name="assetPath">
+			<value>Netistä/mixkit-martial-arts-punch-2052.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.3102721088435374</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3b4c663c-1c24-4e00-a86c-a924f223a341}</destination>
+		</relationship>
+	</object>
+</objects>
