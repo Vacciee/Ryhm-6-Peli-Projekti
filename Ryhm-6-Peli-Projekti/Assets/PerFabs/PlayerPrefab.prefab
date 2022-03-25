@@ -76,7 +76,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   WeaponRotate: {fileID: 4670068786662980457}
-  ammo: {fileID: 1129659526466541339, guid: 6dca9f74d1254774abe51b502b85934f, type: 3}
+  fire: {fileID: 0}
+  ice: {fileID: 0}
   ammoSpawn: {fileID: 2782601504274461095}
 --- !u!1 &5824686127031055539
 GameObject:
@@ -91,6 +92,7 @@ GameObject:
   - component: {fileID: 5824686127031055550}
   - component: {fileID: 5824686127031055549}
   - component: {fileID: 5824686127031055548}
+  - component: {fileID: 1707930351664396375}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -224,6 +226,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   grounded: 0
+--- !u!114 &1707930351664396375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5824686127031055539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebfad97220278a246870331aba7720bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5824686127798676697
 GameObject:
   m_ObjectHideFlags: 0

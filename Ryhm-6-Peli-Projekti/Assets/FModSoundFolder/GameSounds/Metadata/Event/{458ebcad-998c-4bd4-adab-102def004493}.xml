@@ -5,7 +5,7 @@
 			<value>FireBall</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{586c9300-31ad-4668-a673-0fc2b38b2f28}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{c2b074e2-78b7-4469-b05f-b64b62b47c35}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{5e870134-05df-4066-8fb5-4a84c88b73a7}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{488bc7ce-da54-4f1e-8a53-447db064c9de}">
@@ -87,8 +90,11 @@
 	<object class="MixerBusPanner" id="{8ef3478d-d0e0-491f-a359-a1d3fe36fbe8}" />
 	<object class="SingleSound" id="{84346f45-70f8-446b-88ac-337d3e7ed3ea}">
 		<property name="length">
-			<value>4.8000000000000007</value>
+			<value>2</value>
 		</property>
+		<relationship name="audioFile">
+			<destination>{a7975c95-b83f-4c64-b704-84784b384dd2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{f15a4705-a4ab-4632-909a-f91c42651802}">
 		<property name="name">
