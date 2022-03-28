@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4093041214688367881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click/Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click/Click
+  Guid:
+    Data1: -1665586998
+    Data2: 1179057846
+    Data3: 342863021
+    Data4: -1617120241
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &-2681112296658044811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +69,10 @@ MonoBehaviour:
   Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637840834574831383
+  lastModified: 637840863358356069
   FileSizes:
   - Name: 
-    Value: 780
+    Value: 888
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -64,13 +91,42 @@ MonoBehaviour:
   - {fileID: 7757963695704326155}
   EditorEvents:
   - {fileID: -2681112296658044811}
+  - {fileID: 2869195029120257063}
+  - {fileID: -4093041214688367881}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7757963695704326155}
   StringsBanks:
   - {fileID: -1484759678785094962}
-  cacheTime: 637840834574831383
+  cacheTime: 637840863358356069
   cacheVersion: 10
+--- !u!114 &2869195029120257063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click/MouseOver
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click/MouseOver
+  Guid:
+    Data1: -1342495104
+    Data2: 1143410048
+    Data3: 1946059683
+    Data4: -987516497
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
 --- !u!114 &7757963695704326155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -86,8 +142,8 @@ MonoBehaviour:
   Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637840834574801195
+  lastModified: 637840863358336144
   FileSizes:
   - Name: 
-    Value: 2130688
+    Value: 2159392
   Exists: 1
