@@ -28,7 +28,7 @@ public class WeaponRotation : MonoBehaviour
         {
             GameObject ammoInstance = Instantiate(fire, ammoSpawn.transform.position, Quaternion.identity);
             ammoInstance.GetComponent<Rigidbody2D>().velocity = ammoSpawn.transform.right * 10 * transform.localScale.x;
-            FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/FireBall", GetComponent<Transform>().position);
+            //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/FireBall", GetComponent<Transform>().position);
         }
         // Ice spells
         if (Input.GetButtonDown("Fire2"))
