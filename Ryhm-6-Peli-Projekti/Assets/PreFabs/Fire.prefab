@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 1014371364961904419}
   - component: {fileID: 1975398824310909950}
   - component: {fileID: 5671937794630862687}
+  - component: {fileID: 4709619371237642775}
+  - component: {fileID: 4046605617304846336}
+  - component: {fileID: 108489930872454846}
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -104,3 +107,48 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &4709619371237642775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129659526466541339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Pelaaja/Ampuminen/TuliPalloAlku
+  PlayOnAwake: 1
+  PlayOnDestroy: 0
+--- !u!114 &4046605617304846336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129659526466541339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Pelaaja/Ampuminen/TuliPalloLento
+  PlayOnAwake: 1
+  PlayOnDestroy: 0
+--- !u!114 &108489930872454846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129659526466541339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Pelaaja/Ampuminen/TuliPalloOsuma
+  PlayOnAwake: 0
+  PlayOnDestroy: 1

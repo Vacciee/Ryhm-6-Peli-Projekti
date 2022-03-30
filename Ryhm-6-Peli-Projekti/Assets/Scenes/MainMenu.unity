@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 285362724}
   - component: {fileID: 285362723}
   - component: {fileID: 285362722}
+  - component: {fileID: 285362725}
   m_Layer: 5
   m_Name: HowToPlayButton
   m_TagString: Untagged
@@ -308,6 +309,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 285362725}
+        m_TargetAssemblyTypeName: TriggerAudio, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &285362723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -346,6 +359,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 285362720}
   m_CullTransparentMesh: 1
+--- !u!114 &285362725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285362720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/UI/Click/Click
+  PlayOnAwake: 0
+  PlayOnDestroy: 0
 --- !u!1 &343197431
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,6 +615,7 @@ GameObject:
   - component: {fileID: 1016691120}
   - component: {fileID: 1016691119}
   - component: {fileID: 1016691118}
+  - component: {fileID: 1016691121}
   m_Layer: 5
   m_Name: LoadGameButton
   m_TagString: Untagged
@@ -670,6 +699,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1016691121}
+        m_TargetAssemblyTypeName: TriggerAudio, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1016691119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -708,6 +749,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016691116}
   m_CullTransparentMesh: 1
+--- !u!114 &1016691121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016691116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/UI/Click/Click
+  PlayOnAwake: 0
+  PlayOnDestroy: 0
 --- !u!1 &1237032508
 GameObject:
   m_ObjectHideFlags: 0
@@ -720,6 +776,7 @@ GameObject:
   - component: {fileID: 1237032512}
   - component: {fileID: 1237032511}
   - component: {fileID: 1237032510}
+  - component: {fileID: 1237032513}
   m_Layer: 5
   m_Name: StartGameButton
   m_TagString: Untagged
@@ -815,6 +872,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1237032513}
+        m_TargetAssemblyTypeName: TriggerAudio, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1237032511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -853,6 +922,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237032508}
   m_CullTransparentMesh: 1
+--- !u!114 &1237032513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237032508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/UI/Click/Click
+  PlayOnAwake: 0
+  PlayOnDestroy: 0
 --- !u!1 &1275289001
 GameObject:
   m_ObjectHideFlags: 0
@@ -1310,6 +1394,7 @@ GameObject:
   - component: {fileID: 1608773662}
   - component: {fileID: 1608773661}
   - component: {fileID: 1608773660}
+  - component: {fileID: 1608773663}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -1393,6 +1478,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1608773663}
+        m_TargetAssemblyTypeName: MenuControl, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1608773661
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1431,6 +1528,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608773658}
   m_CullTransparentMesh: 1
+--- !u!114 &1608773663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1608773658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/UI/Click/Click
+  PlayOnAwake: 0
+  PlayOnDestroy: 0
 --- !u!1 &1748808450
 GameObject:
   m_ObjectHideFlags: 0
@@ -1443,6 +1555,7 @@ GameObject:
   - component: {fileID: 1748808454}
   - component: {fileID: 1748808453}
   - component: {fileID: 1748808452}
+  - component: {fileID: 1748808455}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -1526,6 +1639,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1748808455}
+        m_TargetAssemblyTypeName: TriggerAudio, Assembly-CSharp
+        m_MethodName: PlayOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1748808453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1564,6 +1689,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748808450}
   m_CullTransparentMesh: 1
+--- !u!114 &1748808455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748808450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e99356043d1d1b47910f09f44182723, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/UI/Click/Click
+  PlayOnAwake: 0
+  PlayOnDestroy: 0
 --- !u!1001 &6736131153942628522
 PrefabInstance:
   m_ObjectHideFlags: 0

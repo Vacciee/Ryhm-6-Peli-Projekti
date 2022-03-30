@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4658029511395800137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/TuliPalloOsuma
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/TuliPalloOsuma
+  Guid:
+    Data1: -946066739
+    Data2: 1230188778
+    Data3: -442186078
+    Data4: -2085294183
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
 --- !u!114 &-4093041214688367881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,33 +54,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1000
---- !u!114 &-2681112296658044811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/New Event"
-  m_EditorClassIdentifier: 
-  Path: "event:/Ymp\xE4rist\xF6/Ambience/New Event"
-  Guid:
-    Data1: 685526961
-    Data2: 1128530479
-    Data3: -1385183316
-    Data4: 532424614
-  Banks:
-  - {fileID: 7757963695704326155}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 26800
 --- !u!114 &-1484759678785094962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,11 +69,38 @@ MonoBehaviour:
   Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.strings.bank"
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637840863358356069
+  lastModified: 637841014602760779
   FileSizes:
   - Name: 
-    Value: 888
+    Value: 1036
   Exists: 1
+--- !u!114 &-427194851262978972
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita"
+  Guid:
+    Data1: 685526961
+    Data2: 1128530479
+    Data3: -1385183316
+    Data4: 532424614
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,15 +117,18 @@ MonoBehaviour:
   - {fileID: -1484759678785094962}
   - {fileID: 7757963695704326155}
   EditorEvents:
-  - {fileID: -2681112296658044811}
   - {fileID: 2869195029120257063}
   - {fileID: -4093041214688367881}
+  - {fileID: 8667831671750137355}
+  - {fileID: 5099108856400960660}
+  - {fileID: -427194851262978972}
+  - {fileID: -4658029511395800137}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7757963695704326155}
   StringsBanks:
   - {fileID: -1484759678785094962}
-  cacheTime: 637840863358356069
+  cacheTime: 637841014602760779
   cacheVersion: 10
 --- !u!114 &2869195029120257063
 MonoBehaviour:
@@ -127,6 +157,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 300
+--- !u!114 &5099108856400960660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/TuliPalloLento
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/TuliPalloLento
+  Guid:
+    Data1: -1557407154
+    Data2: 1076288863
+    Data3: -460307299
+    Data4: -1039922873
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
 --- !u!114 &7757963695704326155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,8 +199,35 @@ MonoBehaviour:
   Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.bank"
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637840863358336144
+  lastModified: 637841014602730768
   FileSizes:
   - Name: 
-    Value: 2159392
+    Value: 2246208
   Exists: 1
+--- !u!114 &8667831671750137355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/TuliPalloAlku
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/TuliPalloAlku
+  Guid:
+    Data1: 95781148
+    Data2: 1264066746
+    Data3: 280122036
+    Data4: -1583693643
+  Banks:
+  - {fileID: 7757963695704326155}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 716
