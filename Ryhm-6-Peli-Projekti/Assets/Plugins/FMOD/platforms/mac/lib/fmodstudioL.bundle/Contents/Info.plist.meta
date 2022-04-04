@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Ryhm-6-Peli-Projekti/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudioL.bundle/Contents/Info.plist.meta
 guid: 9ad4a972384ae6842a56efd64ed80cc2
 DefaultImporter:
+=======
+guid: 9c45982f81b44fa439efef1165acc43e
+PrefabImporter:
+>>>>>>> main:Ryhm-6-Peli-Projekti/Assets/PerFabs/Ice.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

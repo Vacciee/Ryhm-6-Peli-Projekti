@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Ryhm-6-Peli-Projekti/Assets/Plugins/FMOD/platforms/mac/lib/fmodstudio.bundle/Contents/_CodeSignature/CodeResources.meta
 guid: a7e866ce49bf582479f3675646324389
 DefaultImporter:
+=======
+guid: 3e9e186826eb57041bd34d8e5ebc67b1
+PrefabImporter:
+>>>>>>> main:Ryhm-6-Peli-Projekti/Assets/PerFabs/GameManager.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

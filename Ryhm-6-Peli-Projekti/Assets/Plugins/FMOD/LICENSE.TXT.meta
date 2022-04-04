@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Ryhm-6-Peli-Projekti/Assets/Plugins/FMOD/LICENSE.TXT.meta
 guid: f7ef0e67212d94a4bb4181e439c616c4
 TextScriptImporter:
+=======
+guid: 3fbea0ba629804a4ab7e8188188be84e
+PrefabImporter:
+>>>>>>> main:Ryhm-6-Peli-Projekti/Assets/PerFabs/MapUI.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
