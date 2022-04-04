@@ -4,7 +4,7 @@ public class CharacterControl : MonoBehaviour
 {
     public float moveSpeed;
     public float jumpForce;
-    //public Animator animator;
+    public Animator animator;
     public Rigidbody2D rb;
     public Transform groundCheckPosition;
     public float groundCheckRadius;
@@ -40,17 +40,18 @@ public class CharacterControl : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") != 0)
         {
             transform.localScale = new Vector3(Input.GetAxisRaw("Horizontal"), 1, 1);
-            //animator.SetBool("Walk", true);
+            animator.SetBool("Walk", true);
         }
         else
         {
-            //animator.SetBool("Walk", false);
+            animator.SetBool("Walk", false);
         }
 
         if (Input.GetButtonDown("Jump") && grounded == true)
         {
+            animator.SetTrigger("Jump");
             rb.velocity = new Vector2(0, jumpForce);
-            //animator.SetTrigger("Jump");
+
         }
         // if (counter > maxCounter)
         // {

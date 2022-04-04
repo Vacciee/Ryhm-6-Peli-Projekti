@@ -99,8 +99,12 @@ MonoBehaviour:
   ice: {fileID: 0}
   ammoSpawn: {fileID: 2782601504274461095}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &5824686127031055539
 =======
+=======
+  animator: {fileID: 6669525772174457972}
+>>>>>>> main
 --- !u!1 &5373255404674662666
 >>>>>>> main
 GameObject:
@@ -227,6 +231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5.87
   jumpForce: 7.52
+  animator: {fileID: 6669525772174457972}
   rb: {fileID: 3925004760233270136}
   groundCheckPosition: {fileID: 5824686128478186061}
   groundCheckRadius: 0.2
