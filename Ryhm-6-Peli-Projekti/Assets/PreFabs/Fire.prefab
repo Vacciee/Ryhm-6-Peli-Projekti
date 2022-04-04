@@ -11,9 +11,12 @@ GameObject:
   - component: {fileID: 1014371364961904419}
   - component: {fileID: 1975398824310909950}
   - component: {fileID: 5671937794630862687}
+<<<<<<< HEAD
   - component: {fileID: 4709619371237642775}
   - component: {fileID: 4046605617304846336}
   - component: {fileID: 108489930872454846}
+=======
+>>>>>>> main
   m_Layer: 0
   m_Name: Fire
   m_TagString: Untagged
@@ -75,8 +78,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 1, g: 0.007147925, b: 0, a: 1}
+=======
+  m_Sprite: {fileID: 21300000, guid: a8e4eebca1d12c54585760e8712221be, type: 3}
+  m_Color: {r: 0.9056604, g: 0.82512933, b: 0.8244927, a: 1}
+>>>>>>> main
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -107,6 +115,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 --- !u!114 &4709619371237642775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -152,3 +161,5 @@ MonoBehaviour:
   Event: event:/Pelaaja/Ampuminen/TuliPalloOsuma
   PlayOnAwake: 0
   PlayOnDestroy: 1
+=======
+>>>>>>> main
