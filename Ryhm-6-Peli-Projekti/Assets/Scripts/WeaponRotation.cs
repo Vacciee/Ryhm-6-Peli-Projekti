@@ -1,4 +1,4 @@
-using Unity.Mathematics;
+//using Unity.Mathematics;
 using UnityEngine;
 
 public class WeaponRotation : MonoBehaviour
@@ -8,6 +8,7 @@ public class WeaponRotation : MonoBehaviour
     public GameObject fire;
     public GameObject ice;
     public GameObject ammoSpawn;
+    public Animator animator;
 
     // <---------------- UPDATE ---------------------> \\
     void Update()
@@ -26,18 +27,19 @@ public class WeaponRotation : MonoBehaviour
         // Fire spells
         if (Input.GetButtonDown("Fire1"))
         {
+            animator.SetTrigger("Attack");
             GameObject ammoInstance = Instantiate(fire, ammoSpawn.transform.position, Quaternion.identity);
             ammoInstance.GetComponent<Rigidbody2D>().velocity = ammoSpawn.transform.right * 10 * transform.localScale.x;
             //FMODUnity.RuntimeManager.PlayOneShot("event:/SFX/Player/FireBall", GetComponent<Transform>().position);
+
         }
         // Ice spells
         if (Input.GetButtonDown("Fire2"))
         {
-
+            animator.SetTrigger("Attack");
             GameObject ammoInstance = Instantiate(ice, ammoSpawn.transform.position, Quaternion.identity);
             ammoInstance.GetComponent<Rigidbody2D>().velocity = ammoSpawn.transform.right * 10 * transform.localScale.x;
 
-            // */
         }
     }
 }
