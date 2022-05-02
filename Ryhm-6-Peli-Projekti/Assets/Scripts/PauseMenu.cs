@@ -2,12 +2,15 @@ using UnityEngine;
 
 public class PauseMenu : MonoBehaviour
 {
+    #region Variables
     public static bool GameIsPaused = false;
 
     public GameObject pauseMenuUI;
+    #endregion
 
     void Update()
     {
+        #region UI Inputs
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (GameIsPaused)
@@ -32,4 +35,5 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         GameIsPaused = true;
     }
+    #endregion
 }

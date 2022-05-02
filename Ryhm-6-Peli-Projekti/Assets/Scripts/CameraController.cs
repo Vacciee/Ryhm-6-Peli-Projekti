@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public float yPosition;
     [SerializeField] private Transform player;
     [SerializeField] private Vector3 offSet;
     [Range(0.01f, 1f)][SerializeField] private float cameraSpeed;
@@ -10,5 +11,7 @@ public class CameraController : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.SmoothDamp(transform.position, player.position + offSet, ref currentSpeed, cameraSpeed);
+
+        transform.position = new Vector3(transform.position.x, yPosition, transform.position.z);
     }
 }

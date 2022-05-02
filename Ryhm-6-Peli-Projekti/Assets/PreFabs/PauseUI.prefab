@@ -34,7 +34,7 @@ RectTransform:
   - {fileID: 1027927534156479906}
   - {fileID: 1027927533315470076}
   m_Father: {fileID: 1027927533399766229}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5996654217165245418}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuControl, Assembly-CSharp
         m_MethodName: BackMainMenu
         m_Mode: 1
@@ -455,7 +455,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 5996654217165245413}
   - {fileID: 1027927532828687229}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -660,7 +659,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5996654217165245418}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuControl, Assembly-CSharp
         m_MethodName: Save
         m_Mode: 1
@@ -872,7 +871,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 5996654217165245418}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuControl, Assembly-CSharp
         m_MethodName: SaveAndQuit
         m_Mode: 1
@@ -1042,76 +1041,3 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Save
---- !u!1001 &1027927534125128791
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1027927533399766229}
-    m_Modifications:
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 22.993408
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -28.467712
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -21.270134
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6736131153698527164, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-      propertyPath: m_Name
-      value: MenuControl
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
---- !u!4 &5996654217165245413 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6736131153698527154, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-  m_PrefabInstance: {fileID: 1027927534125128791}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5996654217165245418 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6736131153698527165, guid: 49effcc9270ed244d989d08aa82e948c, type: 3}
-  m_PrefabInstance: {fileID: 1027927534125128791}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5a15ce66044d8544b85ca2220b2b273, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

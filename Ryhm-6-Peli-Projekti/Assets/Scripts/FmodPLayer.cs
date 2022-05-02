@@ -6,6 +6,6 @@ public class FmodPLayer : MonoBehaviour
 {
     void PlaySound(string path)
     {
-        //FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
+        FMODUnity.RuntimeManager.PlayOneShot(path, GetComponent<Transform>().position);
     }
 }

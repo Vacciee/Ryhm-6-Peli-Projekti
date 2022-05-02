@@ -1,0 +1,905 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8292192306436343335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Hypyt/Jump
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Hypyt/Jump
+  Guid:
+    Data1: -415509525
+    Data2: 1161057158
+    Data3: 1467849400
+    Data4: 1163355419
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 800
+--- !u!114 &-8256943496564235104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 3"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 3"
+  Guid:
+    Data1: -1929053164
+    Data2: 1120786760
+    Data3: 83223953
+    Data4: -1174616843
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
+--- !u!114 &-7695366091416345810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 2"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 2"
+  Guid:
+    Data1: 1377571431
+    Data2: 1323442167
+    Data3: 1077971099
+    Data4: 2071147507
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
+--- !u!114 &-7578520994424879872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musiikki/Level2/Level2
+  m_EditorClassIdentifier: 
+  Path: event:/Musiikki/Level2/Level2
+  Guid:
+    Data1: 1649819516
+    Data2: 1253869668
+    Data3: -1128305789
+    Data4: 188298213
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17454
+--- !u!114 &-6313902351600041765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita"
+  Guid:
+    Data1: 685526961
+    Data2: 1128530479
+    Data3: -1385183316
+    Data4: 532424614
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
+--- !u!114 &-5302023778478751584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Viholliset/Ampuminen/EnemyFireStart
+  m_EditorClassIdentifier: 
+  Path: event:/Viholliset/Ampuminen/EnemyFireStart
+  Guid:
+    Data1: -720811377
+    Data2: 1279189401
+    Data3: 854506397
+    Data4: -1614120230
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &-4840794963097385488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss/Death
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Death
+  Guid:
+    Data1: -114041521
+    Data2: 1274971610
+    Data3: -1537356879
+    Data4: -892093594
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6861
+--- !u!114 &-3831646827141310523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/Ice/LumiHeitto
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/Ice/LumiHeitto
+  Guid:
+    Data1: 1027047787
+    Data2: 1233892269
+    Data3: -2083438444
+    Data4: 1724134523
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 100
+--- !u!114 &-3672323893041164222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/Fire/TuliPalloOsuma
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/Fire/TuliPalloOsuma
+  Guid:
+    Data1: -946066739
+    Data2: 1230188778
+    Data3: -442186078
+    Data4: -2085294183
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1748
+--- !u!114 &-2982477051738006828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.strings.bank"
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637870893254997428
+  FileSizes:
+  - Name: 
+    Value: 2388
+  Exists: 1
+--- !u!114 &-2737901999977887971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: "C:/Users/MR/OneDrive - Taitotalo/Desktop/Koodaus/Pelien\xC4\xE4niEfektit/Ryhma6PeliProjekti/Build/Desktop/Master.bank"
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637870893254937424
+  FileSizes:
+  - Name: 
+    Value: 18021824
+  Exists: 1
+--- !u!114 &-2602029491657733101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/Fire/TuliPalloAlku
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/Fire/TuliPalloAlku
+  Guid:
+    Data1: 95781148
+    Data2: 1264066746
+    Data3: 280122036
+    Data4: -1583693643
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 716
+--- !u!114 &-2511572035000331122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/Fire/TuliPalloLento
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/Fire/TuliPalloLento
+  Guid:
+    Data1: -1557407154
+    Data2: 1076288863
+    Data3: -460307299
+    Data4: -1039922873
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &-2083691175564785296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click/MouseOver
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click/MouseOver
+  Guid:
+    Data1: -1342495104
+    Data2: 1143410048
+    Data3: 1946059683
+    Data4: -987516497
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 300
+--- !u!114 &-2020825225629477298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musiikki/Menu/Menu
+  m_EditorClassIdentifier: 
+  Path: event:/Musiikki/Menu/Menu
+  Guid:
+    Data1: 2090707429
+    Data2: 1088379327
+    Data3: -2026014069
+    Data4: -1688963915
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 37090
+--- !u!114 &-1543623244707706899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musiikki/TheEnd/TheEnd
+  m_EditorClassIdentifier: 
+  Path: event:/Musiikki/TheEnd/TheEnd
+  Guid:
+    Data1: 834847431
+    Data2: 1179397212
+    Data3: 992986298
+    Data4: 1207295273
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17454
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -2982477051738006828}
+  - {fileID: -2737901999977887971}
+  EditorEvents:
+  - {fileID: 3554955335373576223}
+  - {fileID: -2083691175564785296}
+  - {fileID: 7070027538187101271}
+  - {fileID: -6313902351600041765}
+  - {fileID: 7319469638367272779}
+  - {fileID: -2602029491657733101}
+  - {fileID: -2511572035000331122}
+  - {fileID: 2425628859576906955}
+  - {fileID: -3672323893041164222}
+  - {fileID: -8292192306436343335}
+  - {fileID: -3831646827141310523}
+  - {fileID: 1985867423309121954}
+  - {fileID: 56630030251902087}
+  - {fileID: -5302023778478751584}
+  - {fileID: 6692847479701657355}
+  - {fileID: 673357733224332876}
+  - {fileID: 1080606890854043609}
+  - {fileID: 1377810689016370171}
+  - {fileID: -4840794963097385488}
+  - {fileID: 588310171023043010}
+  - {fileID: 6568225401395811305}
+  - {fileID: -8256943496564235104}
+  - {fileID: 669751593013993589}
+  - {fileID: -7695366091416345810}
+  - {fileID: 4566583585810146086}
+  - {fileID: 1829367047140347165}
+  - {fileID: -7578520994424879872}
+  - {fileID: -2020825225629477298}
+  - {fileID: -1543623244707706899}
+  - {fileID: 8154892994455822107}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -2737901999977887971}
+  StringsBanks:
+  - {fileID: -2982477051738006828}
+  cacheTime: 637870893254997428
+  cacheVersion: 10
+--- !u!114 &56630030251902087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Viholliset/Ampuminen/EnemyFireImpact
+  m_EditorClassIdentifier: 
+  Path: event:/Viholliset/Ampuminen/EnemyFireImpact
+  Guid:
+    Data1: -563134346
+    Data2: 1199762179
+    Data3: -168947537
+    Data4: 1285410455
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &588310171023043010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss/Roar
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Roar
+  Guid:
+    Data1: -1917446739
+    Data2: 1096777094
+    Data3: 435521956
+    Data4: -1640475437
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &669751593013993589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 4"
+  m_EditorClassIdentifier: 
+  Path: "event:/Ymp\xE4rist\xF6/Ambience/TuuliRaita 4"
+  Guid:
+    Data1: 130705462
+    Data2: 1239393937
+    Data3: 1107804068
+    Data4: -687037896
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 26800
+--- !u!114 &673357733224332876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Viholliset/Ampuminen/EnemyFireFlight
+  m_EditorClassIdentifier: 
+  Path: event:/Viholliset/Ampuminen/EnemyFireFlight
+  Guid:
+    Data1: 1972210936
+    Data2: 1229187398
+    Data3: 703086225
+    Data4: 663581915
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
+--- !u!114 &1080606890854043609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss/Start
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Start
+  Guid:
+    Data1: 118842682
+    Data2: 1175922061
+    Data3: -706601044
+    Data4: 322807611
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6000
+--- !u!114 &1377810689016370171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss/Landing
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Landing
+  Guid:
+    Data1: 2078305097
+    Data2: 1125861694
+    Data3: 1013107890
+    Data4: -1709711595
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1990
+--- !u!114 &1829367047140347165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musiikki/BossLVL/Boss
+  m_EditorClassIdentifier: 
+  Path: event:/Musiikki/BossLVL/Boss
+  Guid:
+    Data1: -1649888147
+    Data2: 1149186988
+    Data3: -613911385
+    Data4: -849615182
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24000
+--- !u!114 &1985867423309121954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Ampuminen/Ice/LumiOsuma
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Ampuminen/Ice/LumiOsuma
+  Guid:
+    Data1: 1275027333
+    Data2: 1109027877
+    Data3: 1849052552
+    Data4: 658668479
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2425628859576906955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Kuolema/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Kuolema/New Event
+  Guid:
+    Data1: -182874757
+    Data2: 1340234324
+    Data3: 302699966
+    Data4: -1532533164
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 677
+--- !u!114 &3554955335373576223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Askeleet/Vaatteet
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Askeleet/Vaatteet
+  Guid:
+    Data1: -1674239668
+    Data2: 1249077652
+    Data3: 1139826612
+    Data4: -2072649094
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
+--- !u!114 &4566583585810146086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Musiikki/Level1/Level1
+  m_EditorClassIdentifier: 
+  Path: event:/Musiikki/Level1/Level1
+  Guid:
+    Data1: -1819985600
+    Data2: 1270074356
+    Data3: 1298549409
+    Data4: -362370871
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 17454
+--- !u!114 &6568225401395811305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Boss/Flame
+  m_EditorClassIdentifier: 
+  Path: event:/Boss/Flame
+  Guid:
+    Data1: 850257967
+    Data2: 1269023088
+    Data3: 1754886059
+    Data4: -1583730015
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 123050
+--- !u!114 &6692847479701657355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Viholliset/Askeleet/Liikkuminen
+  m_EditorClassIdentifier: 
+  Path: event:/Viholliset/Askeleet/Liikkuminen
+  Guid:
+    Data1: -1180074583
+    Data2: 1230047870
+    Data3: -1283554645
+    Data4: -769710660
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
+--- !u!114 &7070027538187101271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/Askeleet/Kavely
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/Askeleet/Kavely
+  Guid:
+    Data1: 2044007311
+    Data2: 1097214120
+    Data3: 777151400
+    Data4: -327744027
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 600
+--- !u!114 &7319469638367272779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/UI/Click/Click
+  m_EditorClassIdentifier: 
+  Path: event:/UI/Click/Click
+  Guid:
+    Data1: -1665586998
+    Data2: 1179057846
+    Data3: 342863021
+    Data4: -1617120241
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &8154892994455822107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Pelaaja/WinGame
+  m_EditorClassIdentifier: 
+  Path: event:/Pelaaja/WinGame
+  Guid:
+    Data1: -839166732
+    Data2: 1295577915
+    Data3: -195886420
+    Data4: 1087547589
+  Banks:
+  - {fileID: -2737901999977887971}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000

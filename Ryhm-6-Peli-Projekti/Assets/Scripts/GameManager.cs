@@ -5,21 +5,36 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public class GameManager : MonoBehaviour
 {
+    #region Variables
+
     public static GameManager manager;
-
     public string currentLevel;
-
     public float health;
     public float previousHealth;
     public float maxHealth;
+    public int lives;
+    public int maxLives = 3;
+    FMOD.Studio.Bus bus;
+
+    [SerializeField]
+    [Range(-80f, 10f)]
+    private float busVolume;
+    public float volume;
 
     // Jokaista tasoa varten oma muuttuja. Muuttujan nimi pita olla sama kuin LoadLevel scriptissa olevan LevelToLoad muuttujan arvo.
     public bool Level1;
     public bool Level2;
     public bool Level3;
+    public bool Level4;
+
+    #endregion
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
+        Screen.SetResolution(1920, 1080, true, 60);
+        #region Check managers
+
         // Luodaan Manageri ja tsekataan, onko toinen olemassa ja tuhotaan toinen. 
         if (manager == null)
         {
@@ -35,18 +50,29 @@ public class GameManager : MonoBehaviour
             // Joten tama manageri tuhotaan pois, jolloin ja vain se ensimmainen jaljelle. 
             Destroy(gameObject);
         }
+        #endregion
+    }
+    void Start()
+    {
+        lives = maxLives;
+        bus = FMODUnity.RuntimeManager.GetBus("bus:/");
 
     }
 
-    // Update is called once per frame
-    //    void Update()
-    //    {
-    //        // Avataan MainMenu scene. 
-    //        if (Input.GetKeyDown(KeyCode.Escape)){
-    //
-    //            SceneManager.LoadScene("MainMenu");
-    //        }
-    //    }
+
+    void Update()
+    {
+        volume = Mathf.Pow(10.0f, busVolume / 20f);
+        bus.setVolume(volume);
+        if (Input.GetKeyDown(KeyCode.KeypadPlus))
+        {
+            busVolume += 1f;
+        }
+        if (Input.GetKeyDown(KeyCode.KeypadMinus))
+        {
+            busVolume -= 1f;
+        }
+    }
 
     public void Save() // Pelin tallenntaminen
     {
@@ -89,6 +115,7 @@ public class GameManager : MonoBehaviour
     }
 }
 
+#region Player Data
 // Toinen luokka, joka voidaan serialisoida Unity Editoriin. Pita sisallan vain sen datan mita serialisoidaan.
 [Serializable]
 class PlayerData
@@ -100,4 +127,6 @@ class PlayerData
     public bool Level1;
     public bool Level2;
     public bool Level3;
+    public bool Level4;
 }
+#endregion

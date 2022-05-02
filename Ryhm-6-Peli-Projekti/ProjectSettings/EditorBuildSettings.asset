@@ -22,11 +22,14 @@ EditorBuildSettings:
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Level2.unity
-    guid: 5b261f3641e44c448a6b79b090bbed15
+    guid: 77f691ec2ccc08043a9987d66d047399
   - enabled: 1
     path: Assets/Scenes/Level3.unity
-    guid: e1911b3749a2ee64aaaff49a1d9f8ee9
+    guid: f9fac77a8f37640498b615c13113750a
   - enabled: 1
-    path: Assets/Scenes/BossLevel.unity
-    guid: 88416badb1cf2424689fdfde369e5664
+    path: Assets/Scenes/GameOver.unity
+    guid: 234d907c70347ad4088a541719591740
+  - enabled: 1
+    path: Assets/Scenes/TheEnd.unity
+    guid: 91fa3e069d4b1654893649ee2b214ed0
   m_configObjects: {}

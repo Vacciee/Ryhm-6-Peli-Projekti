@@ -202,9 +202,12 @@ MonoBehaviour:
   health: 3
   previousHealth: 3
   maxHealth: 3
+  lives: 0
+  maxLives: 3
   Level1: 0
   Level2: 0
   Level3: 0
+  Level4: 0
 --- !u!1 &755415664
 GameObject:
   m_ObjectHideFlags: 0
